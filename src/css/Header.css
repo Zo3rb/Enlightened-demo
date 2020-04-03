@@ -1,0 +1,34 @@
+.Header {
+  background: url("../assets/header-image.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  width: 100%;
+}
+
+.Header:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  content: "";
+  z-index: 1;
+}
+
+.Header-inner {
+  z-index: 222;
+  position: absolute;
+  top: 30%;
+}
+
+.enlightened {
+  text-shadow: 1px 1px 6px white;
+}
+
+.check-it-button {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.7rem;
+}

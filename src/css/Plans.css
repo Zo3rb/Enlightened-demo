@@ -1,0 +1,13 @@
+.Plans {
+  background: url("../assets/plans.jpg") center center no-repeat fixed;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Plans .Plan {
+  background-color: rgba(20, 20, 20, 0.9);
+}

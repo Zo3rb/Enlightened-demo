@@ -1,0 +1,16 @@
+/* Global Variables */
+:root {
+  --background: #202020;
+  --color: #fff;
+}
+/* General Resets */
+body {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+  color: var(--color);
+}
+
+a {
+  text-decoration: none;
+}
